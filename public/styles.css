@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: Montserrat;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+#quote-box {
+    position: relative;
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background: #f0efef;
+    border-radius: 5px;
+}
+
+#author {
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+
+#text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+
+#new-quote {
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.twitter-share-button {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#tweet-quote {
+    text-decoration: none;
+    margin-left: none;
+    font-size: 1.5rem;
+}
+
+i {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+}
+
+.fa-twitter-square:hover {
+    color:#1da1f2 !important;
+}
+
+.fa-tumblr:hover {
+    color: #001935 !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-basis: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.signature {
+    color: white;
+}
+
+
+
+@keyframes fadeMe {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #quote-box {
+        position: relative;
+        margin-top: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+        left: 0;
+        background: #f0efef;
+        border-radius: 5px;
+    
+    }
+
+    #new-quote {
+        border: none;
+        color: white;
+        padding: .5rem;
+        border-radius: 5px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        float: right; 
+        margin-right: 5rem;
+        font-size: 1.5rem;
+    }
+    
+}
