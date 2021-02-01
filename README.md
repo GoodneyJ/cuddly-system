@@ -5,4 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## About
 
   This was a project I did to practice react, Got the idea from Free Code Camp: https://www.freecodecamp.org/
-  The API I used is no longer functional I'll have to go change it one of these days
+  Just a simple Quote App that pulls from an API I got from: https://github.com/lukePeavey/quotable, thanks to this dude for making it and lettin ppl use it
+
+## EXTRAS
+
+  <img src="https://media3.giphy.com/media/LnJYMwoyzHgD6JaOwm/giphy.gif" width="500">
